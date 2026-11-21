@@ -67,7 +67,7 @@ python -c 'from importlib.metadata import version; print(version("carm"))'
 
 这些数字确实不同，不能任选一个后把另外两个当成笔误删掉。我保留了页面日期、原始文件名、文件大小、SHA256、包内版本和源码提交，再给自己的安装目录起一个清楚的名字。这样下次报错时才能确定讨论的是同一份文件。
 
-历史记录显示，官方入口迁移后取得了 Linux amd64 附件，完成 ZIP 完整性和路径检查；本文不重新分发该附件，下载与许可条件应以厂商页面为准。[厂商 SDK 文档入口](https://cvte.feishu.cn/docx/ZXyxd0cI1oo5TXxaGUWcmp32nJe)
+历史记录显示，官方入口迁移后取得了 Linux amd64 附件，完成 ZIP 完整性和路径检查；本文不重新分发该附件，下载与许可条件应以厂商页面为准。[厂商 SDK 官方仓库与当前下载指引](https://github.com/cvte-robotics/carm_demo#简介)
 
 也要先核架构。amd64/x86-64 的库不能因为文件名相似就拿去给 ARM 主机使用；Python SDK 可以安装成功，也不代表同包内的 C++ 库适合当前机器。
 
